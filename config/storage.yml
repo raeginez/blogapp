@@ -1,3 +1,9 @@
+cloudinary:
+service: Cloudinary
+cloud_name: rginez
+api_key: 914755856127724
+api_secret: R8UurG0V7C8UXHLWc3Qy3vBJig4
+
 test:
   service: Disk
   root: <%= Rails.root.join("tmp/storage") %>
